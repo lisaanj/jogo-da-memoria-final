@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="info-jogo">
+            <div>
+                <h2>Tentativas: <span id="tentativas">0</span></h2>
+                <h2>Tempo: <span id="tempo">0</span>s</h2>
+            </div>
+            <button id="btn-reiniciar" onclick="reiniciarJogo()">Reiniciar</button>
+        </div>
+
+        <div id="card0" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card1" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card2" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card3" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card4" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card5" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card6" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card7" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card8" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card9" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card10" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card11" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card12" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card13" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card14" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+
+        <div id="card15" class="card">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+    </div>
+
+    <div id="popup-final" class="oculto">
+        <div class="caixa">
+            <h1>🎉 Você ganhou!</h1>
+            <p>Você ganhou uma mensagem!</p>
+            <p><strong>Tentativas:</strong> <span id="tentativas-finais">0</span></p>
+            <p><strong>Tempo total:</strong> <span id="tempo-final">0</span>s</p>
+            <button onclick="reiniciarJogo()">Jogar novamente</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
