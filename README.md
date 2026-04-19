@@ -1,56 +1,19 @@
-\# 🧠 Memory Game (Jogo da Memória)
+# Memory Game
 
+Jogo da memoria feito com HTML, CSS e JavaScript.
 
+## Estrutura
 
-A web-based memory game developed using \*\*HTML, CSS, and JavaScript\*\*.
+O projeto agora esta organizado assim:
 
+```text
+memory-game-js/
+  css/
+  img/
+  js/
+  index.html
+```
 
+## Como abrir
 
-\## 🎮 Features
-
-\- Card flip animation
-
-\- Matching logic
-
-\- Attempt counter
-
-\- Victory message
-
-
-
-\## 🚀 Technologies
-
-\- HTML5
-
-\- CSS3
-
-\- JavaScript
-
-
-
-\## 📂 Structure
-
-\- index.html
-
-\- css/
-
-\- js/
-
-\- img/
-
-
-
-\## ▶️ How to run
-
-Open the file:
-
-index.html
-
-
-
-\## 👩‍💻 Author
-
-Lisanea Johanson
-
-https://github.com/lisaanj
-
+Abra `memory-game-js/index.html` no navegador.
